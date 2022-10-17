@@ -4,4 +4,4 @@ const App = ({ Component, pageProps }: AppProps) =>  {
   return <Component {...pageProps} />
 }
 
-export { App }
+export default App
