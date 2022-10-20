@@ -301,7 +301,11 @@ const Home: NextPage = () => {
                         on #{room.name}
                       </h4>
                       {userJoin && (
-                        <span>
+                        <span
+                          style={{
+                            color: "green",
+                          }}
+                        >
                           {userJoin !== user.name
                             ? `${userJoin} has joined on ${room.name}`
                             : `you joined on ${room.name}`}
